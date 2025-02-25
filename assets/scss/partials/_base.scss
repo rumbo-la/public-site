@@ -1,0 +1,11 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  @apply text-gray-600 font-sans font-normal leading-tight;
+}
+
+.body-modal-active {
+  overflow: hidden !important;
+}

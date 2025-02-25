@@ -1,0 +1,1 @@
+export const CALENDLY_URL = 'https://calendly.com/hola-rumbo/reunion-de-entendimiento?primary_color=382edc';

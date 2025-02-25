@@ -1,0 +1,233 @@
+{
+  "header": {
+    "staffing": "Staffing",
+    "recruiting": "Recruiting",
+    "why_rumbo": "Why Rumbo",
+    "community": "Community",
+    "lets_talk": "Let’s talk",
+    "privacy_policy": "Privacy Policy",
+    "cookie_policy": "Cookie Policy"
+  },
+  "button": {
+    "apply_now": "Apply now",
+    "explore_the_community": "Explore the community",
+    "lets_talk": "Let’s talk",
+    "schedule_a_call": "Schedule a call",
+    "join_us": "Join us"
+  },
+  "home_info": {
+    "flexible_staffing_recruiting": "Flexible staffing & recruiting",
+    "title": "for digital talent, led by practitioners",
+    "subtitle": "Incorporate full-time or part-time talent into your projects and build your digital teams with total flexibility."
+  },
+  "section_client": {
+    "title": "Join companies already managing their digital teams with flexibility and expert support."
+  },
+  "section_rumbo_service": {
+    "we": "We",
+    "source_vet": "source, vet",
+    "and": "and",
+    "manage": "manage",
+    "the_best": "the best",
+    "on_your_behalf": "on your behalf"
+  },
+  "rumbo_service_staffing": {
+    "description": "Embed our digital talent into your projects or build tailor-made teams with total flexibility.",
+    "feature1": "Talent on a full-time or part-time basis",
+    "feature2": "Vetted candidates delivered within 72 hours",
+    "feature3": "Scale your teams up or down anytime",
+    "link": "Discover Staffing models"
+  },
+  "rumbo_service_recruiting": {
+    "description": "We source and vet top-tier digital talent to fill your openings.",
+    "feature1": "From individual contributors to digital leaders",
+    "feature2": "Access the top 5% with our unique vetting process",
+    "feature3": "15+ areas of digital expertise",
+    "link": "Discover Recruiting models"
+  },
+  "home_digital_team": {
+    "your": "Your",
+    "on_demand": "on-demand",
+    "digital_team": "digital team",
+    "description": "Building a high-performing digital team takes years. Rumbo delivers flexible talent solutions and expert guidance, saving you time and money.",
+    "top_tier_digital_talent": "Top-tier digital talent",
+    "top_tier_digital_talent_description": "Our unique vetting process ensures access to the top 5% of digital talent in Latam.",
+    "led_by_practitioners": "Led by practitioners",
+    "led_by_practitioners_description": "Our seasoned practitioners will guide you to design tailor-made digital teams and help you source the best talents.",
+    "flexible_by_design": "Flexible by design",
+    "flexible_by_design_description": "Our model lets you seamlessly integrate our talent full-time into your teams or tap into fractional experts on demand.",
+    "fast_affordable": "Fast & Affordable",
+    "fast_affordable_description": "Our technology streamlines processes and reduces costs. We pass the savings on to you."
+  },
+  "home_start_managing": {
+    "start_managing_your_digital_teams": "Start managing your digital teams",
+    "with_flexibility": "with flexibility",
+    "description": "Create a tailored team, augment your existing staff, or address an expertise gap.",
+    "description_desktop": "Our digital talent can work with you full-time or part-time."
+  },
+  "rumbo_vs_other": {
+    "rumbo" :"Rumbo",
+    "versus" :"versus",
+    "others" :"others",
+    "quality" :"Quality",
+    "cost" :"Cost",
+    "flexibility" :"Flexibility",
+    "speed" :"Speed",
+    "expertise" :"Expertise"
+  },
+  "rumbo": {
+    "quality_text1": "Practitioners with 10+ years of experience",
+    "quality_text2": "Vetted by experts and technology",
+    "cost_text1": "Affordable - Our technology reduces costs",
+    "flexibility_text1": "On-demand talent, full-time or on an hourly basis",
+    "flexibility_text2": "Scale your teams up or down, anytime",
+    "speed_text1": "Vetted candidates, delivered within 72h",
+    "expertise_text1": "One-stop shop: engineering, design, data and more"
+  },
+  "traditional_staffing": {
+    "title": "Traditional staffing agencies",
+    "quality_text1": "Sales reps with no technical experience",
+    "quality_text2": "Manual evaluations led by generalist recruiters",
+    "cost_text1": "High - Manual and traditional processes",
+    "flexibility_text1": "Only full-time or through consultancy services",
+    "flexibility_text2": "Expand or reduce with restrictions as per the contract terms",
+    "speed_text1": "Weeks. Weakly vetted candidates result in reprocessing",
+    "expertise_text1": "Expertise does not cover all digital practices"
+  },
+  "internal_staffing": {
+    "title": "Internal staffing",
+    "quality_text1": "Internal HR with insufficient digital expertise",
+    "quality_text2": "Evaluations led by direct leads, wasting too much of their time",
+    "cost_text1": "High - Hiring, benefits, training...",
+    "flexibility_text1": "Hiring for part-time positions is challenging ",
+    "flexibility_text2": "Terminating employees is slow and expensive",
+    "speed_text1": "Months. Bureaucracy and weakly pre-vetted candidates cause delays",
+    "expertise_text1": "Internal teams can’t cover all areas of expertise"
+  },
+  "roles_disciplines": {
+    "top_talent_in": "Top talent in",
+    "different_roles": "different roles",
+    "and": "and",
+    "practices": "practices"
+  },
+  "faq": {
+    "title": "Frequently asked questions"
+  },
+  "lets_talk": {
+    "your_time_is_valuable_to_us": "Your time is valuable to us, ",
+    "lets_schedule_a": "let<b>’s</b> schedule a",
+    "30_minute_discussion": "30-minute discussion"
+  },
+  "were_hiring": {
+    "title": "We<b>’re</b> hiring",
+    "description": "Join our unique community to expand your network, grow and access the best opportunities."
+  },
+  "staffing_models": {
+    "different_recruiting_models_to_give_you": "Different staffing models to give you",
+    "flexibility": "flexibility",
+    "and": "and",
+    "control": "control"
+  },
+  "recruiting_models": {
+    "different_recruiting_models_to_give_you": "Different recruiting models to give you",
+    "flexibility": "flexibility",
+    "and": "and",
+    "control": "control"
+  },
+  "specialists_managers": {
+    "title": "Specialists & Managers",
+    "description": "We source and vet top-tier digital specialist and managers to fill your openings.",
+    "feature1": "From Individual Contributors to Mid-Level Management",
+    "feature2": "Fully vetted candidates within 72 hours",
+    "feature3": "6-month guarantee",
+    "feature4": "Only on a success fee basis"
+  },
+  "executive_search": {
+    "title": "Executive Search",
+    "description": "We source and vet top-tier digital leaders to fill your executive openings.",
+    "feature1": "CTO, VP or Head of Design, Data, Product...",
+    "feature2": "Fully vetted candidates within 7 business days",
+    "feature3": "12-month guarantee",
+    "feature4": "Only on a success fee basis"
+  },
+  "staff_augmentation": {
+    "title": "Staff Augmentation",
+    "description": "Quickly boost your team’s capacity by adding our full-time specialized talent.",
+    "feature1": "Scale your teams up or down anytime",
+    "feature2": "Immediate onboarding without administrative hassles",
+    "feature3": "15+ areas of digital expertise",
+    "feature4": "Multiple levels of seniority"
+  },
+  "fractional_experts": {
+    "title": "Fractional Experts",
+    "description": "Bring in top digital experts by the hour for strategic guidance or hands-on execution, on demand.",
+    "feature1": "From 2 to 15 hours a week",
+    "feature2": "Pay only for what you actually need",
+    "feature3": "Get started in 72 hours",
+    "feature4": "Top experts with 10+ years of experience"
+  },
+  "tailored_teams": {
+    "title": "Tailored Teams",
+    "description": "We help you design your tailored team, combining talent on a full-time and part-time basis.",
+    "feature1": "Expert advisory to design your ideal team",
+    "feature2": "Blend full-time roles with experts by the hour",
+    "feature3": "Combine different roles: engineering, design, data and more"
+  },
+  "why_rumbo": {
+    "why_companies_choose_rumbo_to": "Why companies choose Rumbo to",
+    "build_digital_teams_on_demand": "build digital teams on-demand",
+    "end": "",
+    "description": "Access to the top 5% of digital talent in Latam as fast as 72 hours, with flexible engagements from hourly to full-time."
+  },
+  "unique_process": {
+    "a": "A unique process to",
+    "source": "source",
+    "and": "and",
+    "vet": "vet",
+    "the_best_talent": "the best talent"
+  },
+  "community": {
+    "title": "We<b>’re</b> hiring",
+    "description": "Join our unique community to expand your network, grow and access the best opportunities."
+  },
+  "want_partner": {
+    "choose": "Choose ",
+    "how_you_want_to_partner": "how you want to partner",
+    "with_us": "with us"
+  },
+  "full_time": {
+    "title": "Full time",
+    "feature1": "Get paid above the market average",
+    "feature2": "Full benefits package, including insurance",
+    "feature3": "Bonuses for performance and referrals",
+    "feature4": "Growth opportunities in your area of expertise"
+  },
+  "hourly": {
+    "title": "Hourly",
+    "feature1": "Boost and diversify your income by engaging in multiple projects",
+    "feature2": "Work with flexible schedules",
+    "feature3": "Gain unique experience by accessing various industries and companies"
+  },
+  "exclusive_benefits": {
+    "join_a_community_of_practitioners_with": "Join a community of practitioners with",
+    "exclusive_benefits": "exclusive benefits"
+  },
+  "networking": {
+    "title": "Networking",
+    "description": "Expand your network by tapping into a community with the top 5% of digital talent in Latam."
+  },
+  "growth": {
+    "title": "Growth",
+    "description": "Learn and share through mentorships, trainings, masterclasses, and exclusive events."
+  },
+  "opportunities": {
+    "title": "Opportunities",
+    "description": "Access to top clients and projects, both locally and internationally."
+  },
+  "experienced_practitioners": {
+    "a_community_of": "A community of",
+    "experienced_practitioners": "experienced practitioners",
+    "from": "from",
+    "top_companies": "top companies"
+  }
+}

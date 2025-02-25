@@ -1,0 +1,80 @@
+.titulo {
+  &--14 {
+    @apply text-sm font-semibold;
+  }
+
+  &--22-44 {
+    @apply font-semibold text-black-100;
+    font-size: 22px;
+
+    @screen lg {
+      @apply text-5xl;
+    }
+  }
+
+  &--24 {
+    @apply text-xl font-normal;
+
+    @screen md {
+      @apply text-2xl;
+    }
+  }
+
+  &--20 {
+    @apply text-xl font-semibold;
+  }
+
+  &--16-20 {
+    @apply font-semibold;
+
+    @screen lg {
+      @apply text-xl;
+    }
+  }
+
+  &--14-20 {
+    @apply text-sm font-semibold;
+
+    @screen lg {
+      @apply text-xl;
+    }
+  }
+
+  &--altas-14 {
+    @apply font-semibold uppercase text-xs;
+
+    @screen md {
+      @apply text-sm;
+    }
+  }
+
+  &--altas-10 {
+    @apply uppercase font-semibold text-xs;
+
+    &__12 {
+      @apply uppercase font-semibold text-xs;
+
+      @screen lg {
+        @apply text-xs;
+      }
+    }
+
+    &__14 {
+      @apply font-medium text-sm;
+
+      @screen md {
+        @apply text-xl;
+      }
+
+      // @screen lg {
+      //   @apply text-sm;
+      // }
+    }
+  }
+}
+
+.link {
+  &--small-verde {
+    @apply text-xs text-green-100;
+  }
+}

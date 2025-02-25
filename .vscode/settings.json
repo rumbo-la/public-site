@@ -1,0 +1,15 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "typescript",
+    "typescriptreact"
+  ],
+  "recommendations": ["Vue.volar", "Vue.vscode-typescript-vue-plugin"],
+  "editor.formatOnSave": true
+}
+  

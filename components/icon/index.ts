@@ -1,0 +1,10 @@
+export { default as IconDisciplineDataAi } from './DisciplineDataAi.vue';
+export { default as IconDisciplineDeliveryOps } from './DisciplineDeliveryOps.vue';
+export { default as IconDisciplineDesign } from './DisciplineDesign.vue';
+export { default as IconDisciplineEngineering } from './DisciplineEngineering.vue';
+export { default as IconDisciplineGrowthMarketing } from './DisciplineGrowthMarketing.vue';
+export { default as IconDisciplineProduct } from './DisciplineProduct.vue';
+export { default as IconGroupPersonsPlus } from './GroupPersonsPlus.vue';
+export { default as IconTalentSearch } from './TalentSearch.vue';
+export { default as IconFullTime } from './FullTime.vue';
+export { default as IconFractional } from './Fractional.vue';

@@ -1,0 +1,36 @@
+.btn-reto {
+  @apply h-11 px-4 rounded-[10px] border border-gray-500 inline-flex justify-start items-center flex-row text-body4 text-blue-100 w-full cursor-auto;
+  @apply font-bold #{!important};
+  img {
+    margin-right: 12px !important;
+    margin-bottom: 0 !important;
+  }
+  @screen sm {
+    @apply justify-center w-auto;
+  }
+}
+
+.btn-reto-start {
+  @apply w-full h-10 text-white bg-green-100 inline-flex justify-center items-center text-body4 rounded px-3 uppercase;
+  @apply font-semibold #{!important};
+  @screen md {
+    @apply w-auto;
+  }
+}
+
+.grid-reto-description {
+  strong {
+    @apply text-blue-100 text-body2 font-bold;
+  }
+}
+.grid-buttons-reto {
+  @apply grid grid-cols-1 sm:grid-cols-2 gap-4 sm:flex mb-5;
+}
+
+.title-buttons-reto {
+  @apply text-blue-100 text-body2 font-bold;
+  margin-bottom: 10px !important;
+  @screen md {
+    margin-bottom: 20px !important;
+  }
+}

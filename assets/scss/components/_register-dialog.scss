@@ -1,0 +1,238 @@
+.bg-cover-dialog {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 200;
+}
+
+.register-dialog {
+  width: 340px;
+  left: calc(50% - 170px);
+  box-shadow: 0 0 12px 6px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+  z-index: 210;
+  @screen lg {
+    top: 60px;
+    width: 910px;
+    left: calc(50% - 455px);
+  }
+
+  &_wrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .register {
+    $height-desktop: 500px;
+    &_inner {
+      @apply w-full block;
+
+      @screen lg {
+        width: 910px;
+        height: $height-desktop;
+        @apply flex items-center overflow-hidden flex-row-reverse;
+      }
+    }
+    &_form {
+      @apply w-full px-3;
+
+      @screen lg {
+        width: 550px;
+        @apply px-6 flex justify-center items-center;
+      }
+    }
+
+    &_slider {
+      @apply relative;
+
+      @screen lg {
+        width: 360px;
+        @apply block overflow-hidden;
+      }
+      .p-fullname {
+        @apply text-green-100 text-body4 absolute z-10 uppercase truncate;
+        top: 62px;
+        left: 41px;
+        transform: rotateZ(-2deg);
+        width: 236px;
+        @screen lg {
+          width: 239px;
+          top: 145px;
+          left: 50px;
+          transform: rotateZ(0deg);
+          @apply text-body4;
+        }
+      }
+
+      .carousel {
+        @apply relative w-full;
+        @screen lg {
+          width: 360px;
+          height: $height-desktop;
+        }
+
+        &_slide {
+          @apply relative;
+          height: 170px;
+          @screen lg {
+            @apply block;
+            height: $height-desktop;
+          }
+
+          &-img {
+            width: 340px;
+            height: 170px;
+            @apply relative mx-auto mb-0;
+            z-index: 5;
+            img {
+              height: 170px;
+            }
+
+            @screen lg {
+              width: 360px;
+              height: $height-desktop;
+              img {
+                width: 360px;
+                height: $height-desktop;
+                display: block;
+              }
+            }
+          }
+
+          &-icon {
+            top: -22px;
+            left: -22px;
+            width: 44px;
+            height: 44px;
+            @apply flex justify-center items-center absolute;
+            background-color: #3361b8;
+            border-radius: 10px 0;
+            box-shadow: 0px 4px 15px rgba(0, 30, 95, 0.14);
+
+            @screen lg {
+              border-radius: 20px 0;
+            }
+
+            img {
+              width: 20px;
+              height: 20px;
+
+              @screen lg {
+                width: 36px;
+                height: 36px;
+              }
+
+              @screen xl {
+                width: 40px;
+                height: 40px;
+              }
+            }
+
+            @screen lg {
+              top: -35px;
+              left: -35px;
+              width: 70px;
+              height: 70px;
+            }
+
+            @screen xl {
+              top: -44px;
+              left: -44px;
+              width: 88px;
+              height: 88px;
+            }
+          }
+
+          &-text {
+            @apply absolute w-full text-white text-left left-0 bottom-3 pr-5 pl-5;
+            z-index: 10;
+
+            .p-title {
+              @apply text-body2 font-semibold;
+              @screen lg {
+                @apply text-body1 font-semibold;
+              }
+            }
+
+            .p-description {
+              font-size: 16px;
+              line-height: 20px;
+              @apply hidden;
+
+              @screen lg {
+                @apply block;
+              }
+            }
+            @screen lg {
+              @apply text-left bottom-25 pl-10 pr-0;
+              min-height: 87px;
+            }
+          }
+        }
+        .slick-list {
+          // @screen lg {
+          //   overflow: visible;
+          // }
+        }
+
+        .slick-arrow {
+          @apply absolute w-8 h-8 card-curve top-1/2 w-5 right-auto;
+          margin-top: -21px;
+          z-index: 10;
+
+          &.slick-prev {
+            left: 20px;
+          }
+
+          &.slick-next {
+            left: 50px;
+          }
+
+          @screen lg {
+            @apply w-16 h-16 bg-green-100 card-curve bottom-7.5 top-auto;
+            &.slick-prev {
+              @apply left-9;
+            }
+
+            &.slick-next {
+              @apply left-29 right-auto;
+            }
+          }
+        }
+
+        .slick-dots {
+          @apply text-center absolute top-1/2 -mt-2.5 right-5;
+
+          @screen lg {
+            @apply right-auto left-0 h-2.5 w-auto m-0 top-auto bottom-50 pl-10;
+          }
+
+          li {
+            @apply float-left h-3 w-3 m-0;
+
+            button {
+              @apply h-3 w-3;
+              font-size: 0;
+              @apply bg-white bg-opacity-50 rounded-full m-0 block;
+            }
+
+            & + li {
+              @apply ml-3;
+              @screen lg {
+                @apply ml-2;
+              }
+            }
+
+            &.slick-active {
+              button {
+                @apply bg-blue-100;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
