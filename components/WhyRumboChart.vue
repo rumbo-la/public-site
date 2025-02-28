@@ -5,7 +5,7 @@ const { locale, locales } = useI18n()
   <section class="section-chart">
     <div class="container px-0">
       <div class="section-title">
-        <h3>{{ $t('why_rumbo.a') }} <span>{{ $t('why_rumbo.source') }}</span> {{ $t('why_rumbo.and') }} <span>{{ $t('why_rumbo.vet') }}</span> {{ $t('why_rumbo.the_best_talent') }}</h3>
+        <h3>{{ $t('unique_process.a') }} <span>{{ $t('unique_process.source') }}</span> {{ $t('unique_process.and') }} <span>{{ $t('unique_process.vet') }}</span> {{ $t('unique_process.the_best_talent') }}</h3>
       </div>
       <div v-if="locale === 'en'" class="rumbo-charts">
         <img class="img-responsive" src="/images/why-rumbo/bg-expert-rumbo-responsive-en.png" alt="Rumbo" />
@@ -15,27 +15,6 @@ const { locale, locales } = useI18n()
         <img class="img-responsive" src="/images/why-rumbo/bg-expert-rumbo-responsive-es.png" alt="Rumbo" />
         <img class="img-desktop" src="/images/why-rumbo/bg-expert-rumbo-desktop-es.png" alt="Rumbo" />
       </div>
-      <!-- <div class="card">
-        <img class="chart-img" src="/images/why-rumbo/chart.svg" alt="Rumbo" />
-        <div class="chart-info">
-          <div class="info">
-            <p>Skill<br/>assessment</p>
-            <p>Automated assessments for technical skills, soft skills and languages</p>
-          </div>
-          <div class="info">
-            <p>In-depth<br/>interview</p>
-            <p>Validation of technical skills and problem-solving abilities by seasoned practitioners</p>
-          </div>
-          <div class="info">
-            <p>Test project</p>
-            <p>Full project to validate skills in real cases, accountability, integrity and professionalism</p>
-          </div>
-          <div class="info">
-            <p>Peer Review<br/>& Debrief</p>
-            <p>Live review of test project conducted by experienced practitioners</p>
-          </div>
-        </div>
-      </div> -->
     </div>
   </section>
 </template>
