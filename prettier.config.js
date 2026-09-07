@@ -1,14 +1,14 @@
-module.exports = {
+/** @type {import('prettier').Config} */
+export default {
   trailingComma: 'all',
-  semi: true, // false
-  printWidth: 80,
+  semi: true,
+  printWidth: 100,
   tabWidth: 2,
   singleQuote: true,
   arrowParens: 'always',
   bracketSpacing: true,
-  endOfLine: 'auto',
+  endOfLine: 'lf',
   bracketSameLine: true,
-  vueIndentScriptAndStyle: true,
-  htmlWhitespaceSensitivity: 'strict',
-  jsxBracketSameLine: false,
+  vueIndentScriptAndStyle: false,
+  htmlWhitespaceSensitivity: 'ignore',
 }

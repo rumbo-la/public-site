@@ -1,14 +1,4 @@
-User-agent: Googlebot
-Disallow: 
-
-User-agent: Googlebot-Image
-Disallow: /images/
-
-User-agent: Mediapartners-Google
-Disallow:
-
 User-agent: *
 Allow: /
 
-Sitemap: https://www.aprendemasinterbank.pe/sitemap.xml
-Sitemap: https://aprendemasinterbank.pe/sitemap.xml
+Sitemap: https://rumbo.la/sitemap_index.xml

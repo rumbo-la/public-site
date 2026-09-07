@@ -1,14 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 import type { Config } from 'tailwindcss'
-// import { ButtonComponent } from './tailwind/buttons'
-const defaultTheme = require("tailwindcss/defaultTheme");
 import { colors, colorsConfig } from './tailwind/colors'
 import { container, screens } from './tailwind/sizing'
 import { fontFamily } from './tailwind/font'
+// import { ButtonComponent } from './tailwind/buttons'
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default <Partial<Config>>{
-  content: ["./src/**/*.{html,js}"],
-  // prefix: TW_CONFIG_PREFIX,
+  content: [
+    './app/**/*.{vue,ts}',
+    './tailwind/**/*.{js,ts}',
+  ],
   theme: {
     extend: {
       colors,

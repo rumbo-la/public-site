@@ -1,0 +1,286 @@
+{
+  "header": {
+    "staffing": "Staffing",
+    "recruiting": "Recruiting",
+    "why_rumbo": "Por qué Rumbo",
+    "community": "Comunidad",
+    "lets_talk": "Conversemos",
+    "privacy_policy": "Privacy Policy",
+    "cookie_policy": "Cookie Policy"
+  },
+  "button": {
+    "apply_now": "Postula ahora",
+    "explore_the_community": "Conoce más sobre la comunidad",
+    "lets_talk": "Conversemos",
+    "schedule_a_call": "Agenda una llamada",
+    "join_us": "Únete ahora"
+  },
+  "home_info": {
+    "flexible_staffing_recruiting": "Flexible staffing & recruiting",
+    "title": "for digital talent, led by practitioners",
+    "subtitle": "Incorpora talento a tiempo completo o parcial a tus proyectos y construye tus equipos digitales con total flexibilidad."
+  },
+  "section_client": {
+    "title": "Ya gestionan sus equipos digitales con flexibilidad y acompañamiento experto."
+  },
+  "section_rumbo_service": {
+    "we": "Nos encargamos de",
+    "source_vet": "encontrar, evaluar",
+    "and": "y",
+    "manage": "gestionar",
+    "the_best": "los mejores",
+    "on_your_behalf": "por ti"
+  },
+  "rumbo_service_staffing": {
+    "description": "Incorpora nuestro talento digital a tus proyectos o arma equipos a medida con total flexibilidad.",
+    "feature1": "Talento por horas o a tiempo completo",
+    "feature2": "Candidatos presentados en 72h",
+    "feature3": "Ajusta la estructura de tu equipo en cualquier momento",
+    "link": "Conoce las modalidades de Staffing"
+  },
+  "rumbo_service_recruiting": {
+    "description": "Seleccionamos y evaluamos talento digital de primera para cubrir tus posiciones en planilla.",
+    "feature1": "Desde especialistas hasta líderes digitales",
+    "feature2": "Top 5% de talento con nuestro proceso único",
+    "feature3": "15+ especialidades digitales",
+    "link": "Conoce las modalidades de Recruiting"
+  },
+  "home_digital_team": {
+    "your": "Tu equipo digital",
+    "on_demand": "a demanda",
+    "digital_team": "",
+    "description": "Construir un equipo digital de alto rendimiento toma años. Rumbo ofrece soluciones de talento flexibles, bajo demanda y con acompañamiento experto, ahorrándote tiempo y dinero.",
+    "top_tier_digital_talent": "Talento digital de primera",
+    "top_tier_digital_talent_description": "Nuestro proceso de evaluación único garantiza acceso al top 5% de talento digital en Latam.",
+    "led_by_practitioners": "Liderado por practitioners",
+    "led_by_practitioners_description": "Nuestros expertos te ayudan a diseñar tu equipo digital a medida y a encontrar el mejor talento del mercado.",
+    "flexible_by_design": "Flexible por diseño",
+    "flexible_by_design_description": "Nuestro modelo flexible te permite integrar sin fricción talento a tiempo completo o expertos por horas a demanda.",
+    "fast_affordable": "Rápido y asequible",
+    "fast_affordable_description": "Nuestra tecnología agiliza los procesos y reduce los costos. Nosotros te trasladamos los ahorros."
+  },
+  "home_start_managing": {
+    "start_managing_your_digital_teams": "Empieza a gestionar tu equipo digital",
+    "with_flexibility": "con flexibilidad",
+    "description": "Arma un equipo a medida, amplía tu equipo actual o cubre una brecha de expertise.",
+    "description_desktop": "Accede a nuestro talento digital a tiempo completo o parcial."
+  },
+  "rumbo_vs_other": {
+    "rumbo": "Rumbo",
+    "versus": "versus",
+    "others": "otras alternativas",
+    "quality": "Garantía de calidad",
+    "cost": "Costo",
+    "flexibility": "Flexibilidad",
+    "speed": "Velocidad",
+    "expertise": "Expertise"
+  },
+  "rumbo": {
+    "quality_text1": "Practitioners con +10 años de experiencia",
+    "quality_text2": "Evaluado por expertos y tecnología",
+    "cost_text1": "Asequible - Nuestra tecnología reduce los costos",
+    "flexibility_text1": " Talento a demanda, full time o por horas",
+    "flexibility_text2": "Amplía, reduce o cambia tus equipos en cualquier momento",
+    "speed_text1": "Candidatos validados, presentados en 72h",
+    "expertise_text1": "Cobertura multidisciplinaria: ingeniería, diseño, data y más"
+  },
+  "traditional_staffing": {
+    "title": "Agencias de staffing tradicionales",
+    "quality_text1": "Comerciales sin experiencia técnica",
+    "quality_text2": "Evaluación manual liderada por reclutadores generalistas",
+    "cost_text1": "Alto - Procesos manuales y tradicionales",
+    "flexibility_text1": "Solo full-time o servicios de consultoría",
+    "flexibility_text2": "Amplia o reduce con restricciones según los acuerdos del contrato",
+    "speed_text1": "Semanas. Candidatos poco filtrados generan reprocesos",
+    "expertise_text1": "No cubren todas las disciplinas digitales"
+  },
+  "internal_staffing": {
+    "title": "Staffing interno",
+    "quality_text1": "RRHH internos con expertise digital insuficiente",
+    "quality_text2": "Evaluación a cargo de los futuros jefes directos ocupando su tiempo",
+    "cost_text1": "Alto - Selección, beneficios, training",
+    "flexibility_text1": "Poco factible contratar a perfiles digitales a tiempo parcial",
+    "flexibility_text2": "Proceso de desvinculación costoso y lento",
+    "speed_text1": "Months. Bureaucracy and weakly pre-vetted candidates cause delays",
+    "expertise_text1": "Equipos internos no cubren todos los expertises"
+  },
+  "roles_disciplines": {
+    "top_talent_in": "El mejor talento en los",
+    "different_roles": "distintos roles",
+    "and": "y",
+    "practices": "disciplinas"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes"
+  },
+  "lets_talk": {
+    "your_time_is_valuable_to_us": "Sabemos que tu tiempo es valioso, ",
+    "lets_schedule_a": "",
+    "30_minute_discussion": "conversemos 30 min"
+  },
+  "were_hiring": {
+    "title": "¡Te estamos buscando!",
+    "description": "Sé parte de una comunidad única para crecer y conectar con las mejores oportunidades."
+  },
+  "staffing_models": {
+    "different_recruiting_models_to_give_you": "Diferentes modalidades para darte",
+    "flexibility": "flexibilidad",
+    "and": "y",
+    "control": "control"
+  },
+  "recruiting_models": {
+    "different_recruiting_models_to_give_you": "Diferentes modalidades para darte",
+    "flexibility": "flexibilidad",
+    "and": "y",
+    "control": "control"
+  },
+  "specialists_managers": {
+    "title": "Especialistas y Managers",
+    "description": "We source and vet top-tier digital specialist and managers to fill your openings.",
+    "feature1": "Individual Contributors & Mid-Level Management",
+    "feature2": "Entrega de perfiles validados en 72 horas",
+    "feature3": "Garantía durante 6 meses",
+    "feature4": "Sólo trabajamos con success fee"
+  },
+  "executive_search": {
+    "title": "Executive Search",
+    "description": "Buscamos y evaluamos líderes digitales senior para cubrir tus posiciones en planilla.",
+    "feature1": "CTO, VPs o Heads of Design, Data, Product y más",
+    "feature2": "Entrega de perfiles validados en 7 días hábiles",
+    "feature3": "Garantía durante 12 meses",
+    "feature4": "Acompañamiento experto para diseño de puesto"
+  },
+  "staff_augmentation": {
+    "title": "Staff Augmentation",
+    "description": "Refuerza rápidamente la capacidad de tus equipos con nuestro talento especializado a tiempo completo.",
+    "feature1": "Ajusta el tamaño de tu equipo en cualquier momento",
+    "feature2": "Incorporación inmediata sin complejidades administrativas",
+    "feature3": "15+ especialidades digitales",
+    "feature4": "Diferentes niveles de seniority"
+  },
+  "fractional_experts": {
+    "title": "Fractional Experts",
+    "description": "Incorpora expertos digitales por horas para resolver tus problemas y acompañarte a demanda.",
+    "feature1": "De 2 a 15 horas semanales",
+    "feature2": "Paga sólo por lo necesario",
+    "feature3": "Incorporación en 72h, resultados desde el día 1",
+    "feature4": "Expertos con 10+ años de experiencia en:"
+  },
+  "tailored_teams": {
+    "title": "Tailored Teams",
+    "description": "Diseñamos contigo tu equipo a medida, combinando talento a tiempo completo y expertos por horas.",
+    "feature1": "Asesoría experta para diseñar tu equipo ideal",
+    "feature2": "Combinación de talento a tiempo completo y por horas",
+    "feature3": "Integración de diversos perfiles: ingeniería, diseño, data y más"
+  },
+  "why_rumbo": {
+    "why_companies_choose_rumbo_to": "¿Por qué elegir",
+    "build_digital_teams_on_demand": "Rumbo",
+    "end": "?",
+    "description": "Accede al top 5% de talento digital en Latam en menos de 72 horas, con modelos flexibles desde tiempo completo hasta por hora."
+  },
+  "unique_process": {
+    "a": "Un",
+    "source": "proceso único",
+    "and": "para encontrar al mejor talento",
+    "vet": "",
+    "the_best_talent": ""
+  },
+  "community": {
+    "title": "¡Te estamos<br/>buscando!",
+    "description": "Sé parte de una comunidad única para crecer y conectar con las mejores oportunidades."
+  },
+  "want_partner": {
+    "choose": "",
+    "how_you_want_to_partner": "Elige cómo quieres trabajar",
+    "with_us": "con nosotros"
+  },
+  "full_time": {
+    "title": "Tiempo completo",
+    "feature1": "Cobra más que el mercado",
+    "feature2": "Beneficios de planilla completa y seguros",
+    "feature3": "Bonos por desempeño y referidos",
+    "feature4": "Línea de carrera para crecer en tu especialidad"
+  },
+  "hourly": {
+    "title": "Por horas",
+    "feature1": "Incrementa y diversifica tus ingresos trabajando en varios proyectos",
+    "feature2": "Maneja horarios flexibles",
+    "feature3": "Adquiere una experiencia única accediendo a múltiples industrias y empresas"
+  },
+  "exclusive_benefits": {
+    "join_a_community_of_practitioners_with": "Sé parte de una comunidad con",
+    "exclusive_benefits": "beneficios únicos"
+  },
+  "networking": {
+    "title": "Networking",
+    "description": "Expande tu red de contactos accediendo a una comunidad con el top 5% de talento digital en Latam."
+  },
+  "growth": {
+    "title": "Crecimiento",
+    "description": "Aprende y comparte con mentorías, trainings, masterclasses y eventos exclusivos."
+  },
+  "opportunities": {
+    "title": "Oportunidades",
+    "description": "Accede a los mejores clientes y proyectos locales e internacionales."
+  },
+  "experienced_practitioners": {
+    "a_community_of": "Una comunidad de",
+    "experienced_practitioners": "practitioners",
+    "from": "con experiencia en las",
+    "top_companies": "mejores empresas"
+  },
+  "contact": {
+    "modal": {
+      "title": "Una solución de<br /><span>staffing diferente</span>",
+      "subtitle": "Arma un equipo desde cero, amplía tu equipo actual o cubre una brecha de expertise.",
+      "flexibility_title": "Flexibilidad total",
+      "flexibility_desc": "Ajusta tus equipos a demanda con modelos de engagement flexibles.",
+      "quality_title": "Calidad única",
+      "quality_desc": "Proceso de evaluación único potenciado por tecnología y comunidad.",
+      "speed_title": "Los más rápidos del mercado",
+      "speed_desc": "Propuesta personalizada con talento validado en 72 horas.",
+      "practitioner_title": "Acompañamiento de practitioner",
+      "practitioner_desc": "Profesionales con experiencia práctica en cada especialidad digital."
+    },
+    "default": {
+      "title": "Selecciona una opción",
+      "subtitle": "Para una comunicación personalizada",
+      "contact_us": "Contáctanos",
+      "schedule_call": "Agendar una llamada",
+      "whatsapp": "Escríbenos por WhatsApp",
+      "whatsapp_message": "Hola, tengo interés en los productos de Rumbo. ¿Me podrían dar más información?"
+    },
+    "form": {
+      "title": "Contáctanos",
+      "subtitle": "Y nos estaremos comunicando contigo lo más pronto posible",
+      "first_name": "Nombre",
+      "last_name": "Apellido",
+      "email": "Correo electrónico",
+      "phone": "Celular",
+      "product_interest": "Producto de interés",
+      "digital_discipline": "Disciplina digital",
+      "message": "Mensaje",
+      "required": "Campo obligatorio",
+      "invalid_email": "Por favor, ingrese un correo electrónico válido.",
+      "select_option": "Selecciona una opción",
+      "accept_terms": "Acepto los",
+      "terms_link": "Términos, condiciones y política de privacidad y cookies",
+      "submit": "Enviar",
+      "submit_error": "No pudimos enviar tu mensaje. Inténtalo de nuevo en unos minutos."
+    },
+    "schedule": {
+      "title": "Agenda una reunión"
+    },
+    "success": {
+      "title": "¡Gracias por contactar<br/>a Rumbo!",
+      "description": "Nuestros expertos en Staffing & Recruiting digital te contactarán para entender tus necesidades.",
+      "go_home": "Ir a Rumbo"
+    }
+  },
+  "cookie_consent": {
+    "text": "Usamos cookies para analizar el tráfico y mejorar tu experiencia. Puedes aceptar o rechazar las cookies de analítica.",
+    "accept": "Aceptar",
+    "decline": "Rechazar"
+  }
+}

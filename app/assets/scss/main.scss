@@ -1,0 +1,25 @@
+html {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+@font-face {
+  font-family: "DxGrafik";
+  src: url("/fonts/DxGrafik-SemiBold.otf") format("opentype"),
+    url("/fonts/DxGrafik-SemiBold.woff2") format("woff2"),
+    url("/fonts/DxGrafik-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.body-modal-active {
+  overflow: hidden !important;
+}
+.container {
+  max-width: 100% !important;
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px !important;
+  }
+}

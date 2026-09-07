@@ -1,14 +1,3 @@
-const plugin = require('tailwindcss/plugin');
-
-const percentageToHex = (percentage) => {
-  const decimal = `0${Math.round(255 * (percentage / 100)).toString(16)}`.slice(-2).toUpperCase();
-  return decimal;
-}
-
-const listNumbersByFive = () => {
-  return Array.from({ length: 19 }, (_, index) => 5 * (index + 1));
-}
-
 export const colors = {
   primary: '#382EDC',
   secondary: '#8452FD',
@@ -17,8 +6,7 @@ export const colors = {
 };
 
 
-export const colorsConfig = ({ addBase, theme }) => {
-  // const colors = theme('colors');
+export const colorsConfig = ({ addBase }) => {
   const newVars = Object.keys(colors).reduce((acc, key) => {
     if (typeof colors[key] === 'string') {
       acc[`--tw-color-${key}`] = colors[key];
