@@ -285,8 +285,8 @@
     "decline": "Rechazar"
   },
   "jobs": {
-    "hero_title_a": "Oportunidades",
-    "hero_title_b": "abiertas",
+    "hero_title_a": "Tu próximo reto",
+    "hero_title_b": "empieza aquí",
     "hero_subtitle": "Posiciones en tecnología, datos, diseño y producto con clientes de Rumbo.",
     "filter_discipline": "Disciplina",
     "all": "Todas",
@@ -298,7 +298,7 @@
     "how_title": "Cómo evaluamos",
     "how_description": "Pruebas automatizadas, revisión por pares, un caso real y una entrevista a profundidad con practitioners experimentados. Solo el 5 % de los candidatos entra en la comunidad Rumbo, y eso es lo que nos permite presentarte a los clientes con garantía.",
     "join_cta": "Únete a la comunidad",
-    "hero_tagline": "Conecta tu talento con proyectos que importan.",
+    "hero_tagline": "Conecta tu talento con proyectos que dejan huella",
     "list_title": "Oportunidades disponibles",
     "view": "Ver oportunidad",
     "banner_title": "¿No encuentras tu próximo reto?",
