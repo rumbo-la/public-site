@@ -1,5 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { existsSync, readFileSync } from 'node:fs'
+
 const SITE_URL = 'https://rumbo.la'
+
+// One route per position synced from Notion (scripts/sync-jobs.mjs) so detail pages are
+// prerendered and listed in the sitemap.
+const JOBS_FILE = './content/jobs.json'
+const jobRoutes: string[] = existsSync(JOBS_FILE)
+  ? JSON.parse(readFileSync(JOBS_FILE, 'utf8')).map((job: { slug: string }) => `/careers/${job.slug}`)
+  : []
 
 export default defineNuxtConfig({
   compatibilityDate: '2026-09-01',
@@ -7,6 +16,10 @@ export default defineNuxtConfig({
   ssr: true,
   nitro: {
     preset: 'static',
+    prerender: {
+      // List every locale variant explicitly so all detail pages are generated.
+      routes: jobRoutes.flatMap((r) => [r, `/en${r}`, `/es${r}`]),
+    },
   },
   site: {
     url: SITE_URL,
@@ -39,6 +52,9 @@ export default defineNuxtConfig({
     config: {
       stylistic: false,
     },
+  },
+  sitemap: {
+    urls: jobRoutes.map((loc) => ({ loc, _i18nTransform: true })),
   },
   i18n: {
     baseUrl: SITE_URL,

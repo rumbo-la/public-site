@@ -47,4 +47,12 @@ export const META_PAGE = {
     description_es: 'Incorpora talento a tiempo completo o parcial a tus proyectos y construye tus equipos digitales con total flexibilidad',
     description_en: 'Incorporate full-time talent or seasoned experts into your projects and build your digital teams with total flexibility'
   },
+  CAREERS: {
+    keyword_es: 'Empleos Tecnología, Trabajos Remotos Latam, Ofertas Laborales Digitales, Empleos Ingeniería de Software, Empleos Data, Empleos Diseño UX, Trabajo Fractional, Oportunidades Rumbo',
+    keyword_en: 'Tech Jobs, Remote Jobs Latam, Digital Job Openings, Software Engineering Jobs, Data Jobs, UX Design Jobs, Fractional Work, Rumbo Careers',
+    title_es: 'Rumbo - Oportunidades',
+    title_en: 'Rumbo - Careers',
+    description_es: 'Posiciones abiertas en tecnología, datos, diseño y producto con los clientes de Rumbo. Postula en minutos',
+    description_en: 'Open positions in technology, data, design and product with Rumbo clients. Apply in minutes'
+  },
 }

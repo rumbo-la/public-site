@@ -3,8 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "jobs:sync": "node scripts/sync-jobs.mjs",
+    "predev": "npm run jobs:sync",
     "dev": "nuxt dev",
     "build": "nuxt build",
+    "pregenerate": "npm run jobs:sync",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "lint": "eslint .",

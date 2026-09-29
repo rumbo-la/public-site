@@ -18,6 +18,9 @@ logs
 .fleet
 .idea
 
+# Positions synced from Notion at build time (scripts/sync-jobs.mjs)
+content/jobs.json
+
 # Local env files
 .env
 .env.*

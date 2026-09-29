@@ -3,6 +3,9 @@ name: Deploy beta
 on:
   push:
     branches: [feat/new-site]
+  # Daily rebuild so positions added or closed in Notion reach the site (06:00 Lima).
+  schedule:
+    - cron: '0 11 * * *'
   workflow_dispatch:
 
 permissions:

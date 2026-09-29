@@ -12,6 +12,9 @@ const handleToggleMenu = () => {
   toggleMenu.value = !toggleMenu.value
 }
 
+// Detail pages are sibling routes of /careers, so the link would not be marked active on its own.
+const isCareersPage = computed(() => route.path.split('/').includes('careers'))
+
 const isHomePage = computed(() => {
   return route.name == 'index'
 })
@@ -61,6 +64,9 @@ const changeLocale = (code: 'en' | 'es') => {
           <NuxtLinkLocale  to="/community" class="flex items-center item-menu">
             {{ $t('header.community') }}
           </NuxtLinkLocale>
+          <NuxtLinkLocale  to="/careers" class="flex items-center item-menu" :class="{ 'router-link-active': isCareersPage }">
+            {{ $t('header.careers') }}
+          </NuxtLinkLocale>
           <NuxtLink :href="CALENDLY_URL" target="_blank" rel="noopener" class="flex items-center item-menu">
             {{ $t('header.lets_talk') }}
           </NuxtLink>
@@ -106,6 +112,9 @@ const changeLocale = (code: 'en' | 'es') => {
           <NuxtLinkLocale  to="/community" class="flex items-center item-menu">
             {{ $t('header.community') }}
           </NuxtLinkLocale>
+          <NuxtLinkLocale  to="/careers" class="flex items-center item-menu" :class="{ 'router-link-active': isCareersPage }">
+            {{ $t('header.careers') }}
+          </NuxtLinkLocale>
         </div>
       </div>
       <div class="w-full">
@@ -118,7 +127,7 @@ const changeLocale = (code: 'en' | 'es') => {
 </template>
 <style lang="scss" scoped>
 .header {
-  @apply py-[10px] lg:py-5 fixed top-0 left-0 w-full z-[120];
+  @apply py-[10px] lg:py-4 fixed top-0 left-0 w-full z-[120];
   @apply border-b border-[#EAEAEA];
   &__locale {
     @apply font-normal text-sm flex items-center text-black/50;
@@ -163,15 +172,16 @@ const changeLocale = (code: 'en' | 'es') => {
         @apply flex;
       }
       &.router-link-active {
-        @apply text-primary;
+        @apply text-primary relative;
+        &::after {
+          content: '';
+          @apply absolute left-0 right-0 -bottom-2 h-[2px] rounded-full bg-primary;
+        }
       }
 
       &:last-child {
-        @apply bg-primary text-white h-[48px] min-w-[160px] items-center justify-center rounded-lg;
-        @apply font-bold text-[16px] leading-[20px];
-        @screen lg {
-          @apply font-bold text-[16px] leading-[20px] min-w-[160px] h-12;
-        }
+        @apply bg-primary text-white h-11 min-w-[148px] px-5 items-center justify-center rounded-lg;
+        @apply font-bold text-[15px] leading-[20px];
       }
     }
   }

@@ -51,6 +51,9 @@ const handleCloseCookieModal = () => {
           <NuxtLinkLocale  to="/community" class="flex items-center item-menu">
             {{ $t('header.community') }}
           </NuxtLinkLocale>
+          <NuxtLinkLocale  to="/careers" class="flex items-center item-menu">
+            {{ $t('header.careers') }}
+          </NuxtLinkLocale>
           <NuxtLink :href="CALENDLY_URL" target="_blank" rel="noopener" class="flex items-center item-menu">
             {{ $t('header.lets_talk') }}
           </NuxtLink>
