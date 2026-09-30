@@ -4,3 +4,20 @@ RewriteEngine On
 # Redirigir HTTP a HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Bloquear el archivo de estado que deja el deploy por FTP (lista de archivos y hashes)
+# y cualquier otro archivo oculto, salvo los de /.well-known (certificados SSL de cPanel).
+<IfModule mod_authz_core.c>
+  <FilesMatch "^\.">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+RewriteRule "(^|/)\.(?!well-known/)" - [F]
+
+# Cabeceras de seguridad básicas (compatibles con Google Analytics, Calendly y Airtable).
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
