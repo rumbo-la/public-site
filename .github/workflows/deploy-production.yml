@@ -1,0 +1,48 @@
+# Production (cPanel over FTP): every merge to main, plus a daily rebuild so positions added or
+# closed in Notion reach the site.
+#
+# Repository secrets: FTP_SERVER, FTP_USERNAME, FTP_PASSWORD.
+# Optional repository variables: FTP_SERVER_DIR (default "public_html/", must end with "/"),
+# FTP_PROTOCOL (default "ftps"; "ftp" only if the server has no TLS), PRODUCTION_URL.
+name: Deploy production
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 11 * * *' # 06:00 Lima
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Never cancel a production upload halfway; queue the next one instead.
+concurrency:
+  group: production
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/build.yml
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: ${{ vars.PRODUCTION_URL }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: site
+      # Uploads only what changed since the last deploy (tracked in .ftp-deploy-sync-state.json on the server).
+      - uses: SamKirkland/FTP-Deploy-Action@3a9c65ae0fc12ac924ccef8afc26941cc43aad0b # v4.4.0
+        with:
+          server: ${{ vars.FTP_SERVER }}
+          username: ${{ vars.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
+          local-dir: site/
+          server-dir: ${{ vars.FTP_SERVER_DIR || 'public_html/' }}

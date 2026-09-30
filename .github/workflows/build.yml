@@ -1,0 +1,30 @@
+# Shared build used by CI and both deploy workflows, so every environment ships the same checks.
+# Syncs positions from Notion (npm "pregenerate"), lints, typechecks and generates the static site,
+# then uploads .output/public as the "site" artifact.
+name: Build
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run generate
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: .output/public
+          include-hidden-files: true # keeps .htaccess
+          retention-days: 7
