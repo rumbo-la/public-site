@@ -2,6 +2,8 @@
 
 Guía para trabajar en este repositorio con Claude Code. El `README.md` describe el proyecto para personas; este archivo recoge lo que hace falta para modificarlo sin romper nada.
 
+Más detalle en `docs/`: [`product.md`](docs/product.md) (qué es y para quién), [`architecture.md`](docs/architecture.md) (build, Notion, CI/CD, seguridad) y [`design-system.md`](docs/design-system.md) (colores, tipografía, componentes). Si un cambio altera algo descrito ahí, actualizar el documento en el mismo pull request.
+
 ## Proyecto
 
 Sitio de marketing de [rumbo.la](https://rumbo.la) (staffing y recruiting de talento digital). Nuxt 4 generado como sitio **estático** (`nitro.preset: 'static'`): no hay servidor ni API propia en producción, todo se resuelve en el build.
