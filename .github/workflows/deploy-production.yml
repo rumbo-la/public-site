@@ -10,7 +10,9 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 11 * * *' # 06:00 Lima
+    # Cron runs in UTC; Lima is UTC-5.
+    - cron: '37 10 * * *' # 05:37 Lima
+    - cron: '0 18,23 * * *' # 13:00 and 18:00 Lima
   workflow_dispatch:
 
 permissions:
